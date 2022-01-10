@@ -1,9 +1,11 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header'
 import Tasks from './components/Tasks'
 import { useState } from "react";
 import AddTask from './components/AddTask';
 import Footer from './components/Footer';
 import About from './components/About';
+import Navibar from './components/Navbar';
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
@@ -53,6 +55,7 @@ const addTask = (task) => {
 
   return (
     <Router>
+      <Navibar />
       <div className="container">
       <Header onAddClick={() => setShowAddButton(!showAddButton)} showAdd = {showAddButton} />
     
