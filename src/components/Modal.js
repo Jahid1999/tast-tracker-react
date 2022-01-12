@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Modal, Button } from 'react-bootstrap';
 function Example({show, onHide}) { 
-  
+  console.log(show)
     return (
       <>
         <Modal

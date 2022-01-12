@@ -6,7 +6,7 @@ function Navibar() {
         <Navbar bg="dark" variant={"dark"} expand="sm">
             {/* <Container> */}
             
-                <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+                <Navbar.Brand href="#">Navbar</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                 <Nav
